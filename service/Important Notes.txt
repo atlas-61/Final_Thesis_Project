@@ -1,0 +1,8 @@
+Telefon üzerinde çalışması için;
+- bilgisayar ve telefon aynı ağda olmalı
+- ifconfig -a komutu ile ip numarası alınmalı
+- backend bu ip üzerinde çalışmalı (FLASK_APP=app_v2.py flask run --host=0.0.0.0)
+- react tarafında fetch kısımları bu ip ile değişmeli
+- default fetch http://127.0.0.1:5000/prediction/
+
+dosya uzantıları güncellenmeli yükleme noktaları vs.
